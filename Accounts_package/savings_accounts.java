@@ -22,7 +22,7 @@ public class savings_accounts extends accounts{
     }
 
     // SHOW ACCOUNT INFO 
-    protected void showInfo(){
+    public void showInfo(){
         System.out.println("Account Type: Savings Account");
         System.out.println("Interest Rate: "+ interestRate);
         System.out.println("Account Number: "+ getAccountNumber());

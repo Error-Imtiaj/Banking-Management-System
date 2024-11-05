@@ -22,7 +22,7 @@ public class fixed_accounts extends accounts {
     }
 
     // SHOW ACCOUNT INFO 
-    protected void showInfo(){
+    public void showInfo(){
         System.out.println("Account Type: Fixed Account");
         System.out.println("Tenture Year: "+ tentureYear);
         System.out.println("Account Number: "+ getAccountNumber());

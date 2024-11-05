@@ -3,12 +3,14 @@ public abstract  class accounts {
     
     private int accountNumber;
     private double balance;
+    public abstract void showInfo();
+
     
     // ACCOUNT NUMBER SECTION
     protected void setAccountNumber(int accountNumber){
         this.accountNumber = accountNumber;
     }
-    protected int getAccountNumber(){
+    public int getAccountNumber(){
         return this.accountNumber;
     }
 
@@ -16,8 +18,10 @@ public abstract  class accounts {
     protected void setBalance(double balance){
         this.balance = balance;
     }
-    protected double getBalance(){
+    public double getBalance(){
         return this.balance;
     }
+
+    
 
 }

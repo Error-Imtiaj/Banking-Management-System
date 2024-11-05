@@ -1,10 +1,12 @@
 package Management_package;
+import java.util.ArrayList;
+
 import Accounts_package.accounts;
 
 public class customers {
     private String name;
     private int nid;
-    accounts [] customerAccounts;
+    public ArrayList<accounts>  customerAccounts;
 
     protected void setName(String name){
         this.name = name;
@@ -13,11 +15,15 @@ public class customers {
         this.nid = nid;
     }
 
-    protected String getName(){
+    public String getName(){
         return this.name;
     }
-    protected int getNid(){
+    public int getNid(){
         return this.nid;
     }
+
+
+
+
 
 }
