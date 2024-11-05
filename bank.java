@@ -2,10 +2,10 @@ import java.util.Scanner;
 
 public class bank {
     private static void menu() {
-        System.out.println("1. Employee Management\r\n" + //
-                "2. Customer Management\r\n" + //
-                "3. Customer Account Management\r\n" + //
-                "4. Account Transactions\r\n" + //
+        System.out.println("1. Employee Management\r\n" + 
+                "2. Customer Management\r\n" + 
+                "3. Customer Account Management\r\n" + 
+                "4. Account Transactions\r\n" + 
                 "5. Exit\n\n");
     }
 
@@ -27,8 +27,8 @@ public class bank {
 
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
+        menu();
         OUTER: while (true) {
-            menu();
             System.out.println("Please Select your command");
             int command = input.nextInt();
             switch (command) {
