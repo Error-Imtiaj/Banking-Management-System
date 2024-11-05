@@ -1,7 +1,7 @@
 package Management_package;
 import Accounts_package.accounts;
 
-class customers {
+public class customers {
     private String name;
     private int nid;
     accounts [] customerAccounts;
