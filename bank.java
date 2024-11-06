@@ -2,11 +2,13 @@ import java.util.Scanner;
 
 public class bank {
     private static void menu() {
-        System.out.println("1. Employee Management\r\n" + 
-                "2. Customer Management\r\n" + 
-                "3. Customer Account Management\r\n" + 
-                "4. Account Transactions\r\n" + 
-                "5. Exit\n\n");
+        System.out.println(
+            "1. Employee Management\r\n" + 
+            "2. Customer Management\r\n" + 
+            "3. Customer Account Management\r\n" + 
+            "4. Account Transactions\r\n" + 
+            "5. Exit\n\n"
+        );
     }
 
     private static void employeeMenu() {
